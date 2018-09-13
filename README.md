@@ -96,10 +96,10 @@ qdisc | Exposes [queuing discipline](https://en.wikipedia.org/wiki/Network_sched
 runit | Exposes service status from [runit](http://smarden.org/runit/). | _any_
 supervisord | Exposes service status from [supervisord](http://supervisord.org/). | _any_
 systemd | Exposes service and system status from [systemd](http://www.freedesktop.org/wiki/Software/systemd/). | Linux
-tcpstat | Exposes TCP connection status information from `/proc/net/tcp` and `/proc/net/tcp6`. (Warning: the current version has potential performance issues in high load situations.) | Linux
+tcpstat | Exposes TCP connection status information from `/proc/net/tcp` and `/proc/net/tcp6`. (Warning: the current version has potential performance issues in high load si
 wifi | Exposes WiFi device and station statistics. | Linux
 perf | Exposes perf based metrics (Warning: Metrics are dependent on kernel configuration and settings). | Linux
-iptables | Expose number of iptables entries by tables | Linux
+iptables | Expose number of iptables entries by tables | Linux, amd64
 
 ### Textfile Collector
 
